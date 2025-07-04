@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background-image: linear-gradient(rgb(43, 155, 9),rgb(179, 255, 0));
+  font-family: 'poppins';
+}

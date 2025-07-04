@@ -1,0 +1,54 @@
+.container{
+  width: 500px;
+  margin: auto;
+  margin-top: 150px;
+  background: white;
+  color: brown;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius:10px;
+  padding: 40px 50px;
+}
+.container hr{
+   height: 2px; 
+   border: none;
+   background: rgb(151, 101, 30);
+}
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+.container ul li{
+    display:flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 35px;
+    background: rgb(51, 28, 154);
+    color: rgb(199, 200, 189);
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container .Index{
+    margin: auto;
+    font-size: 18px;
+}
+.correct{
+    background-color: rgb(80, 157, 80);
+}
+.wrong{
+    background-color: rgb(165, 100, 100);
+}
